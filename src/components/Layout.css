@@ -1,0 +1,21 @@
+.app-footer {
+  border-top: 1px solid var(--border-color);
+  background-color: rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  margin-top: auto;
+  text-align: center;
+}
+
+:root[data-theme='light'] .app-footer {
+  background-color: rgba(0, 0, 0, 0.01);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
